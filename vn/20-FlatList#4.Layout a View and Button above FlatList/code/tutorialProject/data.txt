@@ -1,0 +1,78 @@
+"data": [
+        {
+            "_id": "598a678278fee204ee51cd2c",
+            "name": "Cream Tea",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_91af2c0a6afcc3b0e9d424b4836fb7c3.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cornish_cream_tea_2.jpg",            
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:38:10.160Z",
+            "foodDescription": "This is a cup of cream tea"
+        },
+        {
+            "_id": "598a684f78fee204ee51cd2f",
+            "name": "Fresh mushroom",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_86c3bc2c7d4359e11a90849075f0c851.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Lactarius_indigo_48568.jpg",
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:41:35.556Z",
+            "foodDescription": "Fresh mushroom with vegetables"
+        },
+        {
+            "_id": "598a687678fee204ee51cd30",
+            "name": "Japanese Oyster",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_d3d5aede2e3042c43b7b19bc791c100d.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Oysters_served_on_ice%2C_with_lemon_and_parsley.jpg",
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:42:14.840Z",
+            "foodDescription": "Oysters with ice rock"
+        },
+        {
+            "_id": "598a680178fee204ee51cd2e",
+            "name": "Korean Kimchi",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_8b819390b4b4c6978e2f27d1b0f92411.JPG",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Yeolmukimchi_3.jpg"
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:40:17.197Z",
+            "foodDescription": "Traditional Korean Food"
+        },
+        {
+            "_id": "598a688878fee204ee51cd31",
+            "name": "Multiple salad",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_3ee4630af337b3a7574541f72c47afc2.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Salad_platter.jpg"
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:42:32.427Z",
+            "foodDescription": "Salad mixed with mushroom"
+        },
+        {
+            "_id": "598a68b778fee204ee51cd32",
+            "name": "Vegetable",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_7c0f8421f6b42056bfdf24120d81e698.JPG",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vegetable_Cart_in_Guntur.jpg"
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:43:19.278Z",
+            "foodDescription": "Fresh vegetables"
+        },
+        {
+            "_id": "598a67c478fee204ee51cd2d",
+            "name": "traditional japanese salad",
+            "imageUrl": "Nguyens-iMac:3001/open_image?image_name=upload_a7581c9be1d5f4985ec5d89c18aaacbe.jpg",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Simple_somen.jpg"
+            "status": [
+                "available"
+            ],
+            "created_date": "2017-08-09T01:39:16.109Z",
+            "foodDescription": "Very delicious Japanese Salad"
+        }
