@@ -1,0 +1,29 @@
+{
+	"name": "tutorialProject",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"crypto": "^1.0.1",
+		"random-string": "^0.2.0",
+		"react": "16.0.0-beta.5",
+		"react-native": "0.49.5",
+		"react-native-button": "^2.1.0",
+		"react-native-modalbox": "^1.4.2",
+		"react-native-randombytes": "^3.0.0",
+		"react-native-swipeout": "^2.3.1",
+		"util": "^0.10.3"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-beta.5"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
