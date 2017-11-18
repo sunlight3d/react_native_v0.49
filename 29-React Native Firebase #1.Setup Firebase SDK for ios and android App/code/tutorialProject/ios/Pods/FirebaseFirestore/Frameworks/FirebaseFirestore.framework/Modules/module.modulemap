@@ -1,0 +1,9 @@
+framework module FirebaseFirestore {
+  umbrella header "FirebaseFirestore.h"
+  export *
+  module * { export *}
+  link "z"
+  link framework "CoreGraphics"
+  link framework "SafariServices"
+  link framework "Security"
+  link framework "SystemConfiguration"}
