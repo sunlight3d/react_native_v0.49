@@ -12,5 +12,6 @@ import BasicFlatList from './components/BasicFlatList';
 // import HorizontalFlatList from './components/HorizontalFlatList';
 // import BasicSectionList from './components/BasicSectionList';
 // import LifeCycleComponent from './components/LifeCycleComponent';
+import LoginComponent from './components/LoginComponent';
 
-AppRegistry.registerComponent('tutorialProject', () => BasicFlatList);
+AppRegistry.registerComponent('tutorialProject', () => LoginComponent);
