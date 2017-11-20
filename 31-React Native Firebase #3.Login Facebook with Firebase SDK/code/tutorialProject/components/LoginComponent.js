@@ -11,7 +11,10 @@ import {
     TextInput
 } from 'react-native';
 import firebase from 'react-native-firebase';
+
 import { AccessToken, LoginManager, LoginButton } from 'react-native-fbsdk';
+// import { GoogleSignin } from 'react-native-google-signin';
+
 import Button from 'react-native-button';
 
 export default class LoginComponent extends Component {
@@ -27,7 +30,7 @@ export default class LoginComponent extends Component {
     }
     componentDidMount() {
         this.unsubscriber = firebase.auth().onAuthStateChanged((changedUser) => {
-            console.log(`changed User : ${JSON.stringify(changedUser.toJSON())}`);
+            // console.log(`changed User : ${JSON.stringify(changedUser.toJSON())}`);
             this.setState({ user: changedUser });
         });
     }
@@ -87,6 +90,25 @@ export default class LoginComponent extends Component {
                 console.log(`Facebook login fail with error: ${error}`);
             });
     }
+    /*
+    onLoginGoogle = () => {
+        GoogleSignin
+        .signIn()
+        .then((data) => {
+          // create a new firebase credential with the token
+          const credential = firebase.auth.GoogleAuthProvider.credential(data.idToken, data.accessToken);
+      
+          // login with credential
+          return firebase.auth().signInWithCredential(credential);
+        })
+        .then((currentUser) => {
+          console.warn(JSON.stringify(currentUser.toJSON()));
+        })
+        .catch((error) => {
+          console.log(`Login fail with error: ${error}`);
+        });
+    }
+    */
     render() {
         return (
             <View
@@ -149,6 +171,7 @@ export default class LoginComponent extends Component {
                         }
                     }
                 />
+                
                 <View style={{ flexDirection: 'row' }}>
                     <Button containerStyle={{
                         padding: 10,
@@ -179,6 +202,16 @@ export default class LoginComponent extends Component {
                     style={{ fontSize: 18, color: 'white' }}
                     onPress={this.onLoginFacebook}
                 >Login Facebook</Button>
+                <Button containerStyle={{
+                    padding: 10,
+                    width: 150,
+                    margin: 20,
+                    borderRadius: 4,
+                    backgroundColor: 'rgb(204,84,65)'
+                }}
+                    style={{ fontSize: 18, color: 'white' }}
+                    onPress={this.onLoginGoogle}
+                >Login Google</Button>
             </View>
         );
     }

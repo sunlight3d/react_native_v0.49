@@ -19,7 +19,7 @@
 {
   [FIRApp configure];
   [[FBSDKApplicationDelegate sharedInstance] application:application
-      didFinishLaunchingWithOptions:launchOptions];
+                           didFinishLaunchingWithOptions:launchOptions];
   NSURL *jsCodeLocation;
 
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
@@ -37,7 +37,6 @@
   [self.window makeKeyAndVisible];
   return YES;
 }
-
 - (BOOL)application:(UIApplication *)application
             openURL:(NSURL *)url
             options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
