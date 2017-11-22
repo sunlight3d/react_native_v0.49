@@ -9,12 +9,10 @@ target 'tutorialProject' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Firestore'
-  #Pods for Login Facebook
-#  pod 'FirebaseUI'
-#  pod 'FBSDKCoreKit'
-#  pod 'FBSDKLoginKit'
-#  pod 'FBSDKShareKit'
-  
+
+
+#  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
 
   target 'tutorialProjectTests' do
     inherit! :search_paths
@@ -32,6 +30,6 @@ target 'tutorialProject-tvOS' do
   target 'tutorialProject-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
-  end
+  end  
 
 end
