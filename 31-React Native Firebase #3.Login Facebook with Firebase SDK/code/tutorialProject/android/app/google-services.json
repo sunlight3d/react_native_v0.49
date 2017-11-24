@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "229179779783-9r418qo0l23s4g9flmfi04tnv57lji9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tutorialproject",
+            "certificate_hash": "99c14918aea9da0ece533fd3602cdc64955ac1c5"
+          }
+        },
+        {
           "client_id": "229179779783-a6ht30e4sueehun7g26slrge24j68kmu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -40,15 +48,15 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "229179779783-2nktl2cuvhmd253pndmi7svhkkq4md9b.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
               "client_id": "229179779783-alshugqcnnbqt6tj454l0d882ibqm29v.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "org.reactjs.native.example.tutorialProject"
               }
+            },
+            {
+              "client_id": "229179779783-2nktl2cuvhmd253pndmi7svhkkq4md9b.apps.googleusercontent.com",
+              "client_type": 3
             }
           ]
         },
