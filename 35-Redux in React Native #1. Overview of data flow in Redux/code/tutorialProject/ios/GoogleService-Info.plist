@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>229179779783-alshugqcnnbqt6tj454l0d882ibqm29v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.229179779783-alshugqcnnbqt6tj454l0d882ibqm29v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQO4xpWMeck7LI-uhFOHN3x-EfcaeryRQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>229179779783</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.tutorialProject</string>
+	<key>PROJECT_ID</key>
+	<string>reactnativefirebasetutor-f9c54</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reactnativefirebasetutor-f9c54.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:229179779783:ios:af9d85f0eb71ed94</string>
+	<key>DATABASE_URL</key>
+	<string>https://reactnativefirebasetutor-f9c54.firebaseio.com</string>
+</dict>
+</plist>

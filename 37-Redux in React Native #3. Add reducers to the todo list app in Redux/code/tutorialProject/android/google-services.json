@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "229179779783",
+    "firebase_url": "https://reactnativefirebasetutor-f9c54.firebaseio.com",
+    "project_id": "reactnativefirebasetutor-f9c54",
+    "storage_bucket": "reactnativefirebasetutor-f9c54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229179779783:android:9e3f3af6f89eb918",
+        "android_client_info": {
+          "package_name": "com.tutorialproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229179779783-9r418qo0l23s4g9flmfi04tnv57lji9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tutorialproject",
+            "certificate_hash": "99c14918aea9da0ece533fd3602cdc64955ac1c5"
+          }
+        },
+        {
+          "client_id": "229179779783-a6ht30e4sueehun7g26slrge24j68kmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tutorialproject",
+            "certificate_hash": "e6c4ffb0ce3e9e1f2eda2aa04d0e4de50cd56d1a"
+          }
+        },
+        {
+          "client_id": "229179779783-2nktl2cuvhmd253pndmi7svhkkq4md9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjo1LNjjfX2AmcVuna8cAOwthLcYx59vk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229179779783-2nktl2cuvhmd253pndmi7svhkkq4md9b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "229179779783-c1fs8a18eihben2hb4qfadcp9v7uifrq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Y7EX8R4WBC.org.reactjs.native2.tutorialProject"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
