@@ -5,7 +5,6 @@ Email: sunlight4d@gmail.com
 Reducers for actions 
 */
 import { ADD_MOVIE, FETCH_MOVIES, FETCH_SUCCEEDED, FETCH_FAILED } from '../actions/actionTypes';
-
 const movieReducers = (movies = [], action) => {
     switch (action.type) {
         case FETCH_SUCCEEDED:

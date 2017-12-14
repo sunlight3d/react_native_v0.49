@@ -2,7 +2,7 @@
 Mr Nguyen Duc Hoang
 https://www.youtube.com/c/nguyenduchoang
 Email: sunlight4d@gmail.com
-Redux Saga in React Native
+Redux Saga in React Native. Example of query movies list
 */
 
 import React, { Component } from 'react';
@@ -16,7 +16,7 @@ import MovieContainer from './containers/MovieContainer';
 //Redux saga
 import createSagaMiddleware from 'redux-saga';
 import rootSaga from './sagas/rootSaga'; 
-//Middleware
+
 const sagaMiddleware = createSagaMiddleware();
 
 let store = createStore(allReducers, applyMiddleware(sagaMiddleware));

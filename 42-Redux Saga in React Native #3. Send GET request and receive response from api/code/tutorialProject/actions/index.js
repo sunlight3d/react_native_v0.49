@@ -6,18 +6,18 @@ Redux in React Native - Action Creators
 */
 import { ADD_MOVIE, FETCH_MOVIES, FETCH_SUCCEEDED, FETCH_FAILED } from './actionTypes';
 
-//Action: "increase counter "
-export const addMovieAction = (newMovie) => {
-    return {
-        type: ADD_MOVIE,
-        newMovie: newMovie
-    }
-}
-
 export const fetchMoviesAction = (sort) => {
     return {
         type: FETCH_MOVIES,
         sort
+    }
+}
+
+export const addMovieAction = (newMovie) => {
+    return {
+        type: ADD_MOVIE,
+        //newMovie: newMovie
+        newMovie
     }
 }
 //Action sent by Redux-saga
@@ -28,4 +28,10 @@ export const fetchSuccessAction = (receivedMovies) => {
     }
 }
 
+export const fetchFailedAction = (error) => {
+    return {
+        type: FETCH_FAILED,
+        error
+    }
+}
 

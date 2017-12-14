@@ -7,11 +7,10 @@ MovieContainer connect Redux with MovieComponent
 import { connect } from 'react-redux';
 import MovieComponent from '../components/MovieComponent';
 
-//Actions
+//Actions ?
 import { addMovieAction, fetchMoviesAction, fetchSuccessAction, fetchFailedAction } from '../actions';
 
-const mapStateToProps = (state) => {    
-    // alert(`state after changed : ${JSON.stringify(state.movieReducers)}`);
+const mapStateToProps = (state) => {        
     return {        
         movies: state.movieReducers
     }
@@ -25,7 +24,7 @@ const mapDispatchToProps = (dispatch) => {
         //Not necessary !   
         // onSuccessFetch: () => {                        
         //     dispatch(fetchSuccessAction());
-        // },    
+        // }, 
         onAddMovie: (newMovie) => {                        
             dispatch(addMovieAction(newMovie));
         }

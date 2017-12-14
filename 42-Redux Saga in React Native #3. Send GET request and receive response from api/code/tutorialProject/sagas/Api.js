@@ -15,10 +15,9 @@ function* getMoviesFromApi() {
         },
         body: '',
     });
-    // console.log(`each key = ${Object.keys(response)}`);       
     const movies = yield response.status === 200 ? JSON.parse(response._bodyInit): []       
     return movies;
 }
 export const Api = {
     getMoviesFromApi
-};
+}; 

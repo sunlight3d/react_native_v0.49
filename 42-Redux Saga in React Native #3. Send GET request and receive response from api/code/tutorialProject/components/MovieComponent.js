@@ -2,7 +2,7 @@
 Mr Nguyen Duc Hoang
 https://www.youtube.com/c/nguyenduchoang
 Email: sunlight4d@gmail.com
-MovieComponent - Examle of Redux Saga with Counter app
+MovieComponent - Examle of Redux Saga with Movie List App
 */
 import React, { Component } from 'react';
 import Button from 'react-native-button';
@@ -17,7 +17,6 @@ export default class MovieComponent extends Component {
         this.state = { movieName: '', releaseYear: '' };
     }
     render() {
-        console.log(`this.props.movies1 = ${this.props.movies[1]}`);
         return (
             <View style={{ flex: 1, marginTop: Platform.OS === 'ios' ? 34 : 0 }}>
                 <Text style={{ margin: 10, fontWeight: 'bold', color: 'forestgreen', fontSize: 20 }}>
@@ -43,7 +42,7 @@ export default class MovieComponent extends Component {
                         containerStyle={{ padding: 10, margin: 10, width: 150, height: 45, borderRadius: 10, backgroundColor: 'darkviolet' }}
                         style={{ fontSize: 18, color: 'white' }}
                         onPress={() => {
-                            this.props.onFetchMovies('asc');
+                            this.props.onFetchMovies('asc');                            
                         }}>
                         Fetch movies
                     </Button>
