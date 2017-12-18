@@ -56,7 +56,7 @@ export default class MovieComponent extends Component {
                                 alert('You must enter movie name and release Year');
                                 return;
                             }                 
-                            this.props.onAddMovie({name: movieName, releaseYear: movieName});
+                            this.props.onAddMovie({name: movieName, releaseYear: releaseYear});
                         }}>
                         Add Movie
                     </Button>
