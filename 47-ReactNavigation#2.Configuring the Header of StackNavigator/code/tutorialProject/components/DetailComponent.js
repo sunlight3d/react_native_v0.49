@@ -11,14 +11,14 @@ import {
 import Button from 'react-native-button';
 import { ThirdScreen } from '../screenNames';
 export default class DetailComponent extends Component {
-
-    static navigationOptions = ({ navigation }) => {             
+    static navigationOptions = ({ navigation }) => {
         let headerTitle = 'Detail';        
-        let headerStyle = { backgroundColor: 'rgb(226,81,65)',borderBottomColor: 'white' };
-        let headerTitleStyle = { color: 'yellow' };        
-        let headerTintColor = 'white';        
+        let headerStyle = { backgroundColor: 'rgb(226,81,65)',borderBottomColor: 'white' };             
+        let headerTitleStyle = { color: 'yellow' }; 
+        let headerTintColor = 'white'; 
         return { headerTitle, headerStyle, headerTitleStyle, headerTintColor };
     };
+
     render() {        
         console.log(`this.props.navigation = ${JSON.stringify(this.props.navigation)}`);
         let paramsFromMainScreen = this.props.navigation.state.params;

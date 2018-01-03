@@ -11,10 +11,11 @@ import {
     Text, View, ActivityIndicator
 } from 'react-native';
 
-export default class MainComponent extends Component {
+export default class MainComponent extends Component {    
     static navigationOptions = ({ navigation }) => {
         const { params = {} } = navigation.state;
         let headerTitle = 'Main';
+        let headerTitleStyle = { color: 'red' };
         let headerRight = (<Button
             containerStyle={{ margin: 5, padding: 10, borderRadius: 10, backgroundColor: 'darkviolet' }}
             style={{ fontSize: 15, color: 'white' }}
@@ -24,31 +25,30 @@ export default class MainComponent extends Component {
             >
                 Save
         </Button>);
-        let headerTitleStyle = { color: 'red' };
         let headerBackTitle = 'Back';
-        return { headerTitle, headerRight, headerTitleStyle, headerBackTitle };
-    };
+        return { headerTitle, headerTitleStyle, headerRight,headerBackTitle };
+    }
     _onSave() {
-        console.log(`press onSave this.props.navigation = ${JSON.stringify(this.props)}`);
+        // console.log('You pressed Save');
         if (this.props.navigation.state.params.isSaving == true) {
             return;
         }
         this.props.navigation.setParams({ isSaving: true });
-        //Do some tasks for about 3 seconds        
+        //Do some tasks for about 3 seconds 
         setInterval(() => {
-            console.log('I am doing some task in 3 seconds');
+            console.log('I finished some tasks in 3 seconds');
             this.props.navigation.setParams({ isSaving: false });
         }, 3000);
     }
     componentDidMount() {
         this.props.navigation.setParams({ onSave: this._onSave.bind(this), isSaving: false });
     }
-    render() {
-        const { navigation } = this.props;
+    render() {           
+        const { navigation } = this.props; 
         let dataSendToDetail = {
             name: "Star Wars",
             releaseYear: 1977
-        };        
+        };  
         let mainView = (navigation.state.params && navigation.state.params.isSaving == true) ? <ActivityIndicator /> :
             <View style={{
                 flex: 1,
