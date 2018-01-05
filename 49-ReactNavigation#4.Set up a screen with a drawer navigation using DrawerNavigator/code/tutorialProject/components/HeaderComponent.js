@@ -5,7 +5,6 @@ Email: sunlight4d@gmail.com
 HeaderComponent => used for both Home, Info, Cloud, Settings
 */
 import React, { Component } from 'react';
-import { Info } from '../screenNames';
 import Button from 'react-native-button';
 import {
     Text, View, Image, TouchableHighlight

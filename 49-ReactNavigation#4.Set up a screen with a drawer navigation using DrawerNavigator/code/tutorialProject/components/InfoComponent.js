@@ -2,7 +2,7 @@
 Mr Nguyen Duc Hoang
 https://www.youtube.com/c/nguyenduchoang
 Email: sunlight4d@gmail.com
-InfoComponent is a "menu item"
+InfoComponent
 */
 import React, { Component } from 'react';
 import { Info } from '../screenNames';

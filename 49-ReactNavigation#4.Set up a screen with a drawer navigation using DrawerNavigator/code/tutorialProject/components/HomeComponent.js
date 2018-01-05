@@ -2,14 +2,13 @@
 Mr Nguyen Duc Hoang
 https://www.youtube.com/c/nguyenduchoang
 Email: sunlight4d@gmail.com
-HomeComponent is a "menu item"
+HomeComponent 
 */
 import React, { Component } from 'react';
-import { Info } from '../screenNames';
-import Button from 'react-native-button';
 import {
     Text, View, Image, TouchableHighlight
 } from 'react-native';
+import { Info } from '../screenNames';
 import HeaderComponent from './HeaderComponent';
 
 const backgroundColor = '#0067a7';
@@ -22,14 +21,14 @@ export default class HomeComponent extends Component {
                 style={{ width: 26, height: 26, tintColor: backgroundColor }}
             />
         );
-        return { drawerLabel, drawerIcon };
+        return {drawerLabel, drawerIcon};
     }
     render() {
         return (<View style={{
             flex: 1,
             flexDirection: 'column',
-        }}>
-            <HeaderComponent {...this.props} />
+        }}>      
+            <HeaderComponent {...this.props} />      
             <View style={{
                 flex: 1,
                 backgroundColor: backgroundColor,
@@ -38,7 +37,7 @@ export default class HomeComponent extends Component {
             }}>
                 <Text style={{ fontWeight: 'bold', fontSize: 22, color: 'white' }}>
                     This is Home Screen
-                </Text>                
+                </Text>
                 <TouchableHighlight style={{ 
                                             margin: 20, 
                                             width: 200, 

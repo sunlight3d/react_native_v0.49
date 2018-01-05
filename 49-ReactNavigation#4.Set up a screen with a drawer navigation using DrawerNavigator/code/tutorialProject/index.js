@@ -38,15 +38,14 @@ let drawerNavigatorConfig = {
     initialRouteName: Home,
     drawerWidth: width / 2,
     drawerPosition: 'left',
-    // drawerBackgroundColor: 'red',
     drawerOpenRoute: 'DrawerOpen',
     drawerCloseRoute: 'DrawerClose',
-    drawerToggleRoute: 'DrawerToggle',    
+    drawerToggleRoute: 'DrawerToggle',  
+    // drawerBackgroundColor: 'orange',
     contentOptions: {
-      activeTintColor: 'red',
+        activeTintColor: 'red',
     },
-    // order: [Info, Settings, Cloud, Home]
-
+    order: [Info, Settings, Cloud, Home]
 };
 const App = DrawerNavigator(routeConfigs, drawerNavigatorConfig);
 AppRegistry.registerComponent('tutorialProject', () => App);

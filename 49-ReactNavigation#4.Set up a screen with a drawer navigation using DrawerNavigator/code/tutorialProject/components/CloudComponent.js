@@ -2,17 +2,16 @@
 Mr Nguyen Duc Hoang
 https://www.youtube.com/c/nguyenduchoang
 Email: sunlight4d@gmail.com
-CloudComponent is a "menu item"
+CloudComponent 
 */
 import React, { Component } from 'react';
 import { Info } from '../screenNames';
-import Button from 'react-native-button';
 import HeaderComponent from './HeaderComponent';
 import {
     Text, View, Image, TouchableHighlight
 } from 'react-native';
 const backgroundColor = '#964f8e';
-export default class SettingsComponent extends Component {
+export default class CloudComponent extends Component {
     static navigationOptions = ({ navigation }) => {
         let drawerLabel = 'Cloud';
         let drawerIcon = () => (
