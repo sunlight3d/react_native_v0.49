@@ -5,7 +5,6 @@ Email: sunlight4d@gmail.com
 SettingsComponent is a "tab"
 */
 import React, { Component } from 'react';
-import { DetailScreen, ThirdScreen } from '../screenNames';
 import Button from 'react-native-button';
 import {
     Text, View, Image
@@ -13,8 +12,7 @@ import {
 const backgroundColor = '#e97600';
 
 export default class SettingsComponent extends Component {    
-    static navigationOptions = ({ navigation }) => {
-        const { params = {} } = navigation.state;
+    static navigationOptions = ({ navigation }) => {        
         let tabBarLabel = 'Settings';
         let tabBarIcon = () => (
             <Image

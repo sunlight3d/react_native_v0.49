@@ -13,8 +13,7 @@ import {
 const backgroundColor = '#007256';
 
 export default class InfoComponent extends Component {
-    static navigationOptions = ({ navigation }) => {
-        const { params = {} } = navigation.state;
+    static navigationOptions = ({ navigation }) => {        
         let tabBarLabel = 'Info';
         let tabBarIcon = () => (
             <Image
@@ -34,7 +33,7 @@ export default class InfoComponent extends Component {
         }}>
             <Text style={{ fontWeight: 'bold', fontSize: 22, color: 'white' }}>
                 This is Info Screen
-            </Text>
+            </Text>  
             <Button
                 containerStyle={{ padding: 10, margin: 20, width: 200, height: 45, borderRadius: 10, backgroundColor: 'darkviolet' }}
                 style={{ fontSize: 18, color: 'white' }}
@@ -42,7 +41,7 @@ export default class InfoComponent extends Component {
                     this.props.navigation.goBack();
                 }}>
                 Back to Home
-            </Button>
+            </Button>          
         </View>);
     }
 }

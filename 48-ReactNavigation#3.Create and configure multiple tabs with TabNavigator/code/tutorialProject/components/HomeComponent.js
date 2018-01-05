@@ -11,25 +11,19 @@ import {
     Text, View, Image
 } from 'react-native';
 const backgroundColor = '#0067a7';
-export default class HomeComponent extends Component {
+export default class HomeComponent extends Component {    
     static navigationOptions = ({ navigation }) => {
         const { params = {} } = navigation.state;
-        let tabBarLabel = 'Home';
+        let tabBarLabel = 'Home';   
         let tabBarIcon = () => (
             <Image
                 source={require('../icons/home-icon.png')}
                 style={{ width: 26, height: 26, tintColor: backgroundColor }}
             />
-        );
+        );    
         return { tabBarLabel, tabBarIcon };
     }
-
-
-    render() {
-        let dataSendToInfo = {
-            name: 'And Everything is Going Fine',
-            releaseYear: 2010
-        };
+    render() {        
         return (<View style={{
             flex: 1,
             backgroundColor: backgroundColor,
@@ -44,8 +38,8 @@ export default class HomeComponent extends Component {
                 style={{ fontSize: 18, color: 'white' }}
                 onPress={() => {
                     console.log(`this.props.navigation = ${JSON.stringify(this.props.navigation)}`);
-                    const { navigate } = this.props.navigation
-                    navigate(Info, dataSendToInfo);
+                    const { navigate } = this.props.navigation;
+                    navigate(Info);
                 }}>
                 Navigate to Detail
             </Button>

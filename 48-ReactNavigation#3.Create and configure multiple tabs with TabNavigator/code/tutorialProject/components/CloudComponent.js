@@ -13,8 +13,7 @@ import {
 const backgroundColor = '#964f8e';
 
 export default class CloudComponent extends Component {    
-    static navigationOptions = ({ navigation }) => {
-        const { params = {} } = navigation.state;
+    static navigationOptions = ({ navigation }) => {        
         let tabBarLabel = 'Cloud';
         let tabBarIcon = () => (
             <Image
