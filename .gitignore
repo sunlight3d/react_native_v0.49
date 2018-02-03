@@ -1,7 +1,8 @@
 # Built application files
 *.apk
 *.ap_
-
+video
+video/
 # Files for the ART/Dalvik VM
 *.dex
 
