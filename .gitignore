@@ -5,7 +5,8 @@ video
 video/
 # Files for the ART/Dalvik VM
 *.dex
-
+.DS_Store
+.DS_STORE
 subscribe.png
 subscribe.psd
 
