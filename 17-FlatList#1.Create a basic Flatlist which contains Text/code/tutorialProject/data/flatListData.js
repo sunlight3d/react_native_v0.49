@@ -4,7 +4,8 @@ https://www.youtube.com/c/nguyenduchoang
 Email: sunlight4d@gmail.com
 FlatList input data
 */
-var flatListData = [
+
+const flatListData = [
     {
         "key": "598a678278fee204ee51cd2c",
         "name": "Cream Tea",               
@@ -41,4 +42,4 @@ var flatListData = [
         "foodDescription": "Very delicious Japanese Salad"
     }
 ];
-module.exports = flatListData;
+export default flatListData;
