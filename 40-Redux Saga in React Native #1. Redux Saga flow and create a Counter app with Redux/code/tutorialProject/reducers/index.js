@@ -5,7 +5,7 @@ Email: sunlight4d@gmail.com
 This file binds all reducers 
 */
 import { combineReducers } from 'redux';
-import counterReducers from './counterReducers';
+import counterReducers from './CounterReducers';
 
 const allReducers = combineReducers({
     counterReducers,
